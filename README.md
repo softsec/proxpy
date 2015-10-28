@@ -12,7 +12,7 @@ Please note that ProxPy is currently under heavy development, so the plug-ins in
 #A sample plug-in
 Consider this simple ProxyPy plug-in:
 
-```
+```python
     def proxy_mangle_request(req):
         req.setHeader("User-Agent", "ProxPy Agent")
         return req
